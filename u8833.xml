@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="CyanogenMod/android_frameworks_native"/>
-  <remove-project name="CyanogenMod/android_frameworks_av"/>
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater"/>
-
-  <!-- Device -->
-  <project name="Dazzozo/android_device_huawei_msm7x27a-common"         path="device/huawei/msm7x27a-common"        revision="cm-11.0"/>
-  <project name="Dazzozo/android_device_huawei_u8815"                   path="device/huawei/u8815"                  revision="cm-11.0"/>
-  <project name="Dazzozo/android_device_huawei_u8825"                   path="device/huawei/u8825"                  revision="cm-11.0"/>
-  <project name="Dazzozo/android_device_huawei_u8833"                   path="device/huawei/u8833"                  revision="cm-11.0"/>
-  <project name="Dazzozo/android_device_huawei_u8951"                   path="device/huawei/u8951"                  revision="cm-11.0"/>
-  <project name="Dazzozo/proprietary_vendor_huawei"                     path="vendor/huawei"                        revision="kitkat"/>
-
-  <!-- Kernel -->
-  <project name="chil360/chil360-kernel"                                path="kernel/huawei/huawei-kernel-3.4"      revision="kitkat"/> -->
-  <project name="Dazzozo/android_external_webkit"                       path="external/webkit"                      revision="kitkat"/>
+  <!-- Device Folders, Kernel & Proprietary BLOBS -->
+  <project name="luca020400/android_device_huawei_u8833"            path="device/huawei/u8833"              remote="github" revision="cm-12.0" />
+  <project name="luca020400/android_device_huawei_msm7x27a-common"  path="device/huawei/msm7x27a-common"    remote="github" revision="cm-12.0" />
+  <project name="luca020400/proprietary_vendor_huawei"              path="vendor/huawei"                    remote="github" revision="lollipop" />
+  <project name="chil360/chil360-kernel"                            path="kernel/huawei/huawei-kernel-3.4"  remote="github" revision="experimental"/>
 
   <!-- WIFI -->
-  <project name="CyanogenMod/android_hardware_atheros_wlan"             path="hardware/atheros/wlan"                revision="cm-11.0"/>
-  <project name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei"   path="hardware/atheros/wifi/ath6kl-huawei"  revision="master"/>
+  <project name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" path="hardware/atheros/wifi/ath6kl-huawei"  remote="github" revision="master" />
+  <project name="CyanogenMod/android_hardware_atheros_wlan"           path="hardware/atheros/wlan"                                revision="cm-12.0"/>
 
   <!-- QCOM -->
-  <project name="Dazzozo/android_hardware_qcom_display-legacy"          path="hardware/qcom/display-legacy"         revision="jellybean-mr2"/>
-  <project name="Dazzozo/android_hardware_qcom_media-legacy"            path="hardware/qcom/media-legacy"           revision="kitkat"/>
+  <project name="luca020400/android_hardware_qcom_display-caf_msm7x27a" path="hardware/qcom/display-caf/msm7x27a" remote="github" revision="cm-12.0"/>
+  <project name="CyanogenMod/android_device_qcom_common"                path="device/qcom/common"                 remote="github" revision="cm-12.0"/>
 
-  <!-- Other -->
-  <project name="Dazzozo/android_frameworks_native"                     path="frameworks/native"                    revision="cm-11.0"/>
-  <project name="legaCyMod/android_frameworks_av"                       path="frameworks/av"                        revision="cm-11.0"/>
+  <!-- OLD STUFF -->
+
+  <!--<remove-project name="CyanogenMod/android_frameworks_native"/>-->
+  <!--<remove-project name="CyanogenMod/android_frameworks_av"/>-->
+  <!--<remove-project name="CyanogenMod/android_packages_apps_CMUpdater"/>-->
+
+  <!--<project name="Dazzozo/android_external_webkit"     path="external/webkit"        revision="kitkat"/>-->
+  <!--<project name="Dazzozo/android_frameworks_native"     path="frameworks/native"      revision="cm-11.0"/>-->
+  <!--<project name="Dazzozo/android_hardware_qcom_display-legacy"    path="hardware/qcom/display-legacy"   revision="jellybean-mr2"/>-->
+  <!--<project name="Dazzozo/android_hardware_qcom_media-legacy"    path="hardware/qcom/media-legacy"   revision="kitkat"/>-->
+  <!--<project name="Dazzozo/android_packages_apps_CMUpdater"   path="packages/apps/CMUpdater"      revision="cm-11.0"/>-->
+
+  <!--<project name="legaCyMod/android_frameworks_av"     path="frameworks/av"        revision="cm-11.0"/>-->
+<!--  <project name="legaCyMod/android_hardware_atheros_wlan"   path="hardware/atheros/wlan"      revision="cm-11.0"/>-->
+
+  <!--<project path="hardware/qcom/display-caf/msm7x27a" name="TeamHackLG/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0"/>-->
 
 </manifest>
