@@ -14,7 +14,7 @@
   <project name="Dazzozo/proprietary_vendor_huawei"                     path="vendor/huawei"                        revision="kitkat"/>
 
   <!-- Kernel -->
-  <project name="chil360/chil360-kernel"                                path="kernel/huawei/huawei-kernel-3.4"      revision="kitkat"/> -->
+  <project name="chil360/chil360-kernel"                                path="kernel/huawei/huawei-kernel-3.4"      revision="kitkat"/>
   <project name="Dazzozo/android_external_webkit"                       path="external/webkit"                      revision="kitkat"/>
 
   <!-- WIFI -->
