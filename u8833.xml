@@ -17,11 +17,3 @@
   <project path="hardware/qcom/display-caf/msm7x27a"  name="TeamHackLG/android_hardware_qcom_display-caf"         remote="github"   revision="cm-11.0"/>
 
 </manifest>
-
-
-{
-"remote": "cm",
-"repository": "",
-"target_path": "device/qcom/common",
-"revision": "cm-11.0"
-},
