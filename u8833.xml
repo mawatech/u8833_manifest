@@ -2,16 +2,16 @@
 <manifest>
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
-  <project name="luca020400/android_device_huawei_u8833" path="device/huawei/u8833" remote="github" revision="cm-12.0" />
-  <project name="luca020400/android_device_huawei_msm7x27a-common" path="device/huawei/msm7x27a-common" remote="github" revision="cm-12.0" />
-  <project name="luca020400/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="lollipop" />
-  <project name="chil360/chil360-kernel" path="kernel/huawei/huawei-kernel-3.4" remote="github" revision="experimental"/>
+  <project path="device/huawei/u8833"                 name="Y300-0100/android_device_huawei_u8833"                remote="github"   revision="caf" />
+  <project path="device/huawei/msm7x27a-common"       name="Y300-0100/android_device_huawei_msm7x27a-common"      remote="github"   revision="caf" />
+  <project path="vendor/huawei"                       name="Y300-0100/proprietary_vendor_huawei"                  remote="github"   revision="caf" />
+  <project path="kernel/huawei/huawei-kernel-3.4"     name="Y300-0100/chil360-kernel"                             remote="github"   revision="experimental"/>
 
   <!-- WIFI -->
-  <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
-  <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
+  <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei"  remote="github"   revision="master" />
+  <project path="hardware/atheros/wlan"               name="CyanogenMod/android_hardware_atheros_wlan"            remote="github"   revision="cm-12.0" />
 
   <!-- QCOM -->
-  <project path="hardware/qcom/display-caf/msm7x27a" name="luca020400/android_hardware_qcom_display-caf_msm7x27a" remote="github" revision="cm-12.0"/>
+  <project path="hardware/qcom/display-caf/msm7x27a"  name="TeamHackLG/android_hardware_qcom_display-caf"         remote="github"   revision="cm-11.0"/>
   
 </manifest>
