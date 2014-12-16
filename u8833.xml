@@ -12,7 +12,7 @@
   <project path="hardware/atheros/wlan"               name="CyanogenMod/android_hardware_atheros_wlan"            remote="github"   revision="cm-12.0" />
 
   <!-- QCOM -->
-  <project path="hardware/qcom/common"                name="CyanogenMod/android_device_qcom_common"               remote="github"   revision="cm-12.0" />
+  <project path="device/qcom/common"                  name="CyanogenMod/android_device_qcom_common"               remote="github"   revision="cm-12.0" />
   <project path="hardware/qcom/fm"                    name="CyanogenMod/android_hardware_qcom_fm"                 remote="github"   revision="cm-12.0" />
   <project path="hardware/qcom/display-caf/msm7x27a"  name="TeamHackLG/android_hardware_qcom_display-caf"         remote="github"   revision="cm-11.0"/>
 
