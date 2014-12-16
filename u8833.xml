@@ -13,5 +13,6 @@
 
   <!-- QCOM -->
   <project path="hardware/qcom/display-caf/msm7x27a"  name="TeamHackLG/android_hardware_qcom_display-caf"         remote="github"   revision="cm-11.0"/>
-  
+  <project path="hardware/qcom/fm"                    name="CyanogenMod/android_hardware_qcom_fm"                 remote="github"   revision="cm-12.0" />
+
 </manifest>
