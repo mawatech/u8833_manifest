@@ -15,7 +15,7 @@
   <project path="hardware/atheros/wlan"               name="CyanogenMod/android_hardware_atheros_wlan"                       remote="github"   revision="cm-12.0" />
   
   <!-- GPS -->
-  <project path="hardware/qcom/gps"                   name="CyanogenMod12Y300/android_hardware_qcom_gps"                     remote="github"   revision="kitkat"/>
+  <project path="hardware/qcom/gps"                   name="CyanogenMod12Y300/android_hardware_qcom_gps"                     remote="github"   revision="cm-12.0"/>
 
   <!-- QCOM -->
   <project path="hardware/qcom/display-caf/msm7x27a"  name="SlimLP-Y300/android_hardware_qcom_display-caf"                   remote="github"   revision="lp5.0"/>
