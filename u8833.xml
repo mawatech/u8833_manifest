@@ -9,10 +9,10 @@
   <project path="frameworks/av"                       name="HtcLegacy/android_frameworks_av"                      remote="github"   revision="cm-12.0"/>
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
-  <project path="vendor/huawei"                       name="fonz93/proprietary_vendor_huawei"                     remote="github"   revision="lp5.0"/>
-  <project path="kernel/huawei/huawei-kernel-3.4"     name="fonz93/chil360-kernel"                                remote="github"   revision="lp5.0"/>
-  <project path="device/huawei/msm7x27a-common"       name="fonz93/android_device_huawei_msm7x27a-common"         remote="github"   revision="cm-12.0"/>
-  <project path="device/huawei/u8833"                 name="fonz93/android_device_huawei_u8833"                   remote="github"   revision="cm-12.0"/>
+  <project path="vendor/huawei"                       name="CyanogenMod12Y300/proprietary_vendor_huawei"                     remote="github"   revision="lp5.0"/>
+  <project path="kernel/huawei/huawei-kernel-3.4"     name="CyanogenMod12Y300/chil360-kernel"                                remote="github"   revision="lp5.0"/>
+  <project path="device/huawei/msm7x27a-common"       name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common"         remote="github"   revision="cm-12.0"/>
+  <project path="device/huawei/u8833"                 name="CyanogenMod12Y300/android_device_huawei_u8833"                   remote="github"   revision="cm-12.0"/>
 
   <!-- WIFI -->
   <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei"  remote="github"   revision="master" />
