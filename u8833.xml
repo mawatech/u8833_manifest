@@ -7,20 +7,20 @@
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="vendor/huawei"                       name="CyanogenMod12Y300/proprietary_vendor_huawei"                     remote="github"   revision="lp5.0"/>
   <project path="kernel/huawei/huawei-kernel-3.4"     name="CyanogenMod12Y300/chil360-kernel"                                remote="github"   revision="lp5.0"/>
-  <project path="device/huawei/msm7x27a-common"       name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common"         remote="github"   revision="cm-12.0"/>
-  <project path="device/huawei/u8833"                 name="CyanogenMod12Y300/android_device_huawei_u8833"                   remote="github"   revision="cm-12.0"/>
+  <project path="device/huawei/msm7x27a-common"       name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common"         remote="github"   revision="cm-12.1"/>
+  <project path="device/huawei/u8833"                 name="CyanogenMod12Y300/android_device_huawei_u8833"                   remote="github"   revision="cm-12.1"/>
 
   <!-- WIFI -->
-  <project path="hardware/atheros/wifi/ath6kl-huawei" name="CyanogenMod12Y300/android_hardware_atheros_wifi_ath6kl-huawei"         remote="github"   revision="master" />
-  <project path="hardware/atheros/wlan"               name="CyanogenMod/android_hardware_atheros_wlan"                       remote="github"   revision="cm-12.0" />
+  <project path="hardware/atheros/wifi/ath6kl-huawei" name="CyanogenMod12Y300/android_hardware_atheros_wifi_ath6kl-huawei"   remote="github"   revision="master" />
+  <project path="hardware/atheros/wlan"               name="CyanogenMod/android_hardware_atheros_wlan"                       remote="github"   revision="cm-12.1" />
   
   <!-- GPS -->
-  <project path="hardware/qcom/gps"                   name="CyanogenMod12Y300/android_hardware_qcom_gps"                     remote="github"   revision="cm-12.0"/>
+  <project path="hardware/qcom/gps"                   name="CyanogenMod12Y300/android_hardware_qcom_gps"                     remote="github"   revision="cm-12.1"/>
 
   <!-- QCOM -->
   <project path="hardware/qcom/display-caf/msm7x27a"  name="SlimLP-Y300/android_hardware_qcom_display-caf"                   remote="github"   revision="lp5.0"/>
-  <project path="hardware/qcom/media-caf/msm7x27a"    name="CyanogenMod12Y300/android_hardware_qcom_media"                   remote="github"   revision="cm-12.0"/>
+  <project path="hardware/qcom/media-caf/msm7x27a"    name="CyanogenMod12Y300/android_hardware_qcom_media"                   remote="github"   revision="staging/cm-12.1"/>
 
   <!-- FM -->
-  <project path="hardware/qcom/fm"                    name="CyanogenMod/android_hardware_qcom_fm"                            remote="github"   revision="cm-12.0" />
+  <project path="hardware/qcom/fm"                    name="CyanogenMod/android_hardware_qcom_fm"                            remote="github"   revision="cm-12.1" />
 </manifest>
