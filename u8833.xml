@@ -3,6 +3,7 @@
   <!-- Remove unneeded repos -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater"/>
   <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
   
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="vendor/huawei"                       name="CyanogenMod12Y300/proprietary_vendor_huawei"                     remote="github"   revision="lp5.0"/>
@@ -23,4 +24,6 @@
 
   <!-- FM -->
   <project path="hardware/qcom/fm"                    name="CyanogenMod/android_hardware_qcom_fm"                            remote="github"   revision="cm-12.1" />
+
+  <project path="frameworks/av"                       name="CyanogenMod12Y300/android_frameworks_av"                         remote="github"   revision="cm-12.1" />
 </manifest>
