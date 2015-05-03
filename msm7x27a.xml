@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remove unneeded repos -->
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
 
