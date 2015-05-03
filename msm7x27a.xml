@@ -2,6 +2,8 @@
 <manifest>
   <!-- Remove unneeded repos -->
   <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+
   
   <!-- Kernel & Proprietary BLOBS -->
   <project path="vendor/huawei"                       name="msm7x27a/proprietary_vendor_huawei"                     remote="github"   revision="lollipop.mr1"/>
