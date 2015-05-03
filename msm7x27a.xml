@@ -8,8 +8,8 @@
 
   
   <!-- Kernel & Proprietary BLOBS -->
-  <project path="vendor/huawei"                       name="msm7x27a/proprietary_vendor_huawei"                     remote="github"   revision="lp5.1"/>
-  <project path="kernel/huawei/huawei-kernel-3.4"     name="msm7x27a/chil360-kernel"                                remote="github"   revision="lp5.1"/>
+  <project path="vendor/huawei"                       name="msm7x27a/proprietary_vendor_huawei"                     remote="github"   revision="lollipop.mr1"/>
+  <project path="kernel/huawei/huawei-kernel-3.4"     name="msm7x27a/chil360-kernel"                                remote="github"   revision="lollipop-mr1"/>
 
   <!-- WIFI -->
   <project path="hardware/atheros/wifi/ath6kl-huawei" name="msm7x27a/android_hardware_atheros_wifi_ath6kl-huawei"   remote="github"   revision="master" />

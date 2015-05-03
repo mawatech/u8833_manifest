@@ -6,5 +6,4 @@
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="device/huawei/msm7x27a-common"       name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common"         remote="github"   revision="cm-12.1"/>
   <project path="device/huawei/u8833"                 name="CyanogenMod12Y300/android_device_huawei_u8833"                   remote="github"   revision="cm-12.1"/>
-
 </manifest>
