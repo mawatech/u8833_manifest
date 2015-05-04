@@ -8,7 +8,7 @@
 
   
   <!-- Kernel & Proprietary BLOBS -->
-  <project path="vendor/huawei"                       name="msm7x27a/proprietary_vendor_huawei"                     remote="github"   revision="lollipop.mr1"/>
+  <project path="vendor/huawei"                       name="msm7x27a/proprietary_vendor_huawei"                     remote="github"   revision="lollipop-mr1"/>
   <project path="kernel/huawei/huawei-kernel-3.4"     name="msm7x27a/chil360-kernel"                                remote="github"   revision="lollipop-mr1"/>
 
   <!-- WIFI -->
