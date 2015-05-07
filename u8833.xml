@@ -3,6 +3,7 @@
   <!-- Remove unneeded repos -->
   <remove-project name="F-AOSP/platform_frameworks_base" />
   <remove-project name="F-AOSP/platform_packages_apps_Settings" />
+  <remove-project name="F-AOSP/platform_vendor_aosp" />
   
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="device/huawei/msm7x27a-common"       name="F-AOSPY300/android_device_huawei_msm7x27a-common"         remote="github"   revision="aosp-5.1"/>
@@ -10,4 +11,5 @@
 
   <project path="frameworks/base"                     name="F-AOSPY300/platform_frameworks_base"                             remote="github"   revision="aosp-5.1" />
   <project path="packages/apps/Settings"              name="F-AOSPY300/platform_packages_apps_Settings"                      remote="github"   revision="aosp-5.1"/>
+  <project path="vendor/aosp"                         name="F-AOSPY300/platform_vendor_aosp"                      remote="github"   revision="aosp-5.1"/>
 </manifest>
