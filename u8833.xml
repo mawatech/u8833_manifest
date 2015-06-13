@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remove unneeded repos -->
-
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
   
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="device/huawei/msm7x27a-common"       name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common"         remote="github"   revision="cm-12.1"/>
   <project path="device/huawei/u8833"                 name="CyanogenMod12Y300/android_device_huawei_u8833"                   remote="github"   revision="cm-12.1"/>
+
+  <!-- WIFI -->
+  <project path="external/wpa_supplicant_8"           name="msm7x27a/android_external_wpa_supplicant_8"             remote="github"   revision="cm-12.1" />
+
+  <!-- Framework -->
+  <project path="frameworks/av"                       name="msm7x27a/android_frameworks_av"                         remote="github"   revision="cm-12.1" />
 </manifest>
