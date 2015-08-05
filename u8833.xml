@@ -2,15 +2,28 @@
 <manifest>
   <!-- Remove unneeded repos -->
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
   
+    <!-- Kernel & Proprietary BLOBS -->
+  <project path="vendor/huawei"                       name="mawatech/proprietary_vendor_huawei"                     remote="github"   revision="lollipop-mr1"/>
+  <project path="kernel/huawei/huawei-kernel-3.4"     name="mawatech/chil360-kernel"                             remote="github"   revision="lp5.1"/>
+
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
-  <project path="device/huawei/msm7x27a-common"       name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common"         remote="github"   revision="cm-12.1"/>
-  <project path="device/huawei/u8833"                 name="CyanogenMod12Y300/android_device_huawei_u8833"                   remote="github"   revision="cm-12.1"/>
+  <project path="device/huawei/msm7x27a-common"       name="mawatech/android_device_huawei_msm7x27a-common"     remote="github"   revision="lp5.1"/>
+  <project path="device/huawei/u8833"                 name="mawatech/android_device_huawei_u8833"               remote="github"   revision="lp5.1"/>
 
   <!-- WIFI -->
-  <project path="external/wpa_supplicant_8"           name="CyanogenMod12Y300/android_external_wpa_supplicant_8"             remote="github"   revision="cm-12.1" />
+  <project path="hardware/atheros/wifi/ath6kl-huawei" name="mawatech/android_hardware_atheros_wifi_ath6kl-huawei" remote="github"   revision="master" />
+  <project path="hardware/atheros/wlan"               name="CyanogenMod/android_hardware_atheros_wlan"            remote="github"   revision="cm-12.1" />
+  <project path="external/wpa_supplicant_8"           name="mawatech/android_external_wpa_supplicant_8"           remote="github"   revision="cm-12.1" />
 
-  <!-- Framework -->
-  <project path="frameworks/av"                       name="CyanogenMod12Y300/android_frameworks_av"                         remote="github"   revision="cm-12.1" />
+    <!-- QCOM -->
+  <project path="hardware/qcom/display-caf/msm7x27a"  name="mawatech/android_hardware_qcom_display"                 remote="github"   revision="cm-12.1-caf-msm7x27a"/>
+  <project path="hardware/qcom/media-caf/msm7x27a"    name="mawatech/android_hardware_qcom_media"                   remote="github"   revision="cm-12.1-caf-msm7x27a"/>
+
+  <!-- FM -->
+  <project path="hardware/qcom/fm"                    name="CyanogenMod/android_hardware_qcom_fm"                   remote="github"   revision="cm-12.1" />
+
+  <project path="hardware/qcom/gps"                   name="CyanogenMod/android_hardware_qcom_gps"                  remote="github"   revision="cm-11.0" />
+
 </manifest>
